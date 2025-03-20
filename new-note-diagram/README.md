@@ -5,7 +5,7 @@ Here is a simple sequence diagram representing what is going on when a user goes
 ```mermaid
 sequenceDiagram
   participant browser
-  participent server
+  participant server
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
   activate server
