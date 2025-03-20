@@ -1,3 +1,5 @@
+# New Note Diagram
+
 Here is a simple sequence diagram representing what is going on when a user goes to https://studies.cs/helsinki.fi/exampleapp/notes, using the Mermaid syntax of Github:
 
 ```mermaid
