@@ -7,7 +7,7 @@ sequenceDiagram
 
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/spa
   activate server
-  server-->>: console.log({"message": "note created"})
+  server-->>browser: console.log({"message": "note created"})
   deactivate server
 
   Note right of browser: The server modify the HTML document, adding the new note, without needing the browser to refresh the page.
