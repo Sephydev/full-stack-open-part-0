@@ -22,7 +22,7 @@ sequenceDiagram
   server-->>browser: the JS script
   deactivate server
 
-  Note right of the browser: the browser execute the JS script who fetches the JSON file
+  Note right of browser: the browser execute the JS script who fetches the JSON file
 
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
   activate server
